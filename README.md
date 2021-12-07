@@ -60,5 +60,5 @@ Tabela de conteúdos
 
 <div id="observation">
  <h1>Observação</h1>
- <p>A API não foi publicada em um endereço público por possíveis gastos não desejáveis, então caso deseje realizar o deploy e publicar, recomenda-se seguir a documentação oficial: https://ktor.io/docs/deploy.html#containerizing</p>
+ <p>A API não foi publicada em um endereço público por possíveis gastos não desejáveis, então caso deseje realizar o deploy e publicar, recomenda-se seguir a documentação oficial: https://ktor.io/docs/deploy.html</p>
 </div>
