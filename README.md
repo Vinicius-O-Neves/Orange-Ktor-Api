@@ -55,7 +55,7 @@ Tabela de conteúdos
  <p>&nbsp;&nbsp;&nbsp;* http://yourIP/items/category/{Category} => retorna os items pela respectiva categoria passada, sendo que a primeira letra da categoria é maiúscula</p>
  
  <h2>&nbsp;&nbsp;Retornar todas as categorias da API</h2>
- <p>&nbsp;&nbsp;&nbsp;* http://yourIP/items/categorys => retorna as categorias e as foto que as representam</p>
+ <p>&nbsp;&nbsp;&nbsp;* http://yourIP/items/categorys => retorna as categorias e a foto que as representam</p>
 </div>
 
 <div id="observation">
