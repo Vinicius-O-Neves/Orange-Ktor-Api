@@ -17,10 +17,10 @@ Tabela de conteúdos
 <!--te-->
  
 <h1 id="Sobre">Sobre</h1>
-<p align="center">&nbsp;Orange-Ktor-Api é uma API desenvolvido para o estudo de criação de API utilizando o framework Ktor. Está API simula o cardápio de um restaurante, ou seja, a API retorna atráves de um JSON dados como os lanches, bebidas, fotos, e descrição dos items, além do preço, quantidade de pessoas que serve.</p>
+<p align="center">&nbsp;Orange-Ktor-Api é uma API desenvolvido para o estudo de criação de API utilizando o framework Ktor. Esta API simula o cardápio de um restaurante, ou seja, a API retorna atráves de um JSON dados como os lanches, bebidas, fotos, e descrição dos items, além do preço e quantidade de pessoas que serve.</p>
 
 
-<h1 id="instalacao">Instação</h1>
+<h1 id="instalacao">Instalação</h1>
 <p>&nbsp;Abra o terminal e navegue até a pasta desejada para clonar o projeto <b>(utilize cd *nome da diretorio* para navegar atráves do terminal do windows)</b> digite o comando "git clone https://github.com/Vinicius-O-Neves/Orange-Ktor-Api.git" para clonar o repositório</p>
 
 
@@ -55,7 +55,7 @@ Tabela de conteúdos
  <p>&nbsp;&nbsp;&nbsp;* http://yourIP/items/category/{Category} => retorna os items pela respectiva categoria passada, sendo que a primeira letra da categoria é maiúscula</p>
  
  <h2>&nbsp;&nbsp;Retornar todas as categorias da API</h2>
- <p>&nbsp;&nbsp;&nbsp;* http://yourIP/items/categorys => retorna as categorias e as foto que as representam</p>
+ <p>&nbsp;&nbsp;&nbsp;* http://yourIP/items/categorys => retorna as categorias e a foto que as representam</p>
 </div>
 
 <div id="observation">
