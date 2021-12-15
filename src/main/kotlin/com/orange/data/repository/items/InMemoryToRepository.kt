@@ -4,7 +4,7 @@ import com.orange.data.model.FoodModel
 
 class InMemoryToRepository: ItemsRepository {
 
-    private val BASE_URL = "192.168.0.101:8140"
+    private val BASE_URL = "192.168.15.14:8140"
 
     private val items = listOf<FoodModel>(
         FoodModel(
@@ -138,6 +138,28 @@ class InMemoryToRepository: ItemsRepository {
             "$BASE_URL/foodimages/churros.jpg",
             "$BASE_URL/foodimages/Churros_9-SQ.jpg",
             "2"
+        ),
+        FoodModel(
+            13,
+            "Banana Split",
+            "Dessert",
+            "23",
+            "Uma deliciosa tigela de banana split com uma perfeita calda de chocolate  em cima de gigantes bolas de sorvete sabor creme e chocolate!",
+            "$BASE_URL/foodimages/banana split removed background.jpg",
+            "$BASE_URL/foodimages/banana split 1.jpg",
+            "$BASE_URL/foodimages/banana split 2.jpg",
+            "2"
+        ),
+        FoodModel(
+            14,
+            "Cup Cake",
+            "Dessert",
+            "16",
+            "Um delicioso cup cake de chocolate rechedo com muita calda de chocolate meio amargo!",
+            "$BASE_URL/foodimages/cup cake removed background.jpg",
+            "$BASE_URL/foodimages/cup cake 1.jpg",
+            "$BASE_URL/foodimages/cup cake 2.jpg",
+            "1"
         )
     )
 
@@ -147,7 +169,7 @@ class InMemoryToRepository: ItemsRepository {
 
     override fun getItemById(id: Int): FoodModel? {
         return items.firstOrNull { it.id == id }
-    }
+        }
 
     override fun getItemByCategory(category: String): List<FoodModel?> {
         return  items.filter { items -> items.category == category }
