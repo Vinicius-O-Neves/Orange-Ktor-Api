@@ -11,7 +11,7 @@ fun Route.itemsById() {
 
     val repository: ItemsRepository = InMemoryToRepository()
 
-    get("/items/{id}") {
+    get("/{id}") {
         val id = call.parameters["id"]!!.toIntOrNull()
         val item = repository.getItemById(id!!)
 

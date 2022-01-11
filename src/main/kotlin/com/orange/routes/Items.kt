@@ -11,7 +11,7 @@ fun Route.items() {
 
     val repository: ItemsRepository = InMemoryToRepository()
 
-    get("/items")  {
+    get("/")  {
         call.respond(
             HttpStatusCode.OK,
             repository.getAllItems()

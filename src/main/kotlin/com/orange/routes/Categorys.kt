@@ -11,7 +11,7 @@ fun Route.Categorys() {
 
     val repository: CategoryRepository = InMemoryToRepository()
 
-    get("/items/categorys") {
+    get("/categorys") {
         call.respond(
             HttpStatusCode.OK,
             repository.getAllCategorys()

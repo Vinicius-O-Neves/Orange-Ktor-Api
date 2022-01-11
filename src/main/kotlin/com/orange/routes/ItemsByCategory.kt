@@ -11,14 +11,14 @@ fun Route.itemsByCategory() {
 
     val repository: ItemsRepository = InMemoryToRepository()
 
-    get("/items/category/{category}") {
+    get("/category/{category}") {
         val category = call.parameters["category"]!!
         val item = repository.getItemByCategory(category)
 
         if (category == null) {
             call.respond(
                 HttpStatusCode.BadRequest,
-                "O parâmetro de category precisa ser um número"
+                "O parâmetro de category precisa ser uma categoria"
             )
             return@get
         }

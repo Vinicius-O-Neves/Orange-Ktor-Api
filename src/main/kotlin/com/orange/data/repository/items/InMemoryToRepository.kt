@@ -4,57 +4,57 @@ import com.orange.data.model.FoodModel
 
 class InMemoryToRepository: ItemsRepository {
 
-    private val BASE_URL = "192.168.15.14:8140"
+    private val BASE_URL = "http://192.168.15.14:8140"
 
     private val items = listOf<FoodModel>(
         FoodModel(
             1,
             "Basic Burguer",
-            "Burguer",
+            "Hambúgueres",
             "27",
             "Um delicioso lanche com um hambúrguer bovino de 180g, duas fatias de quejo cheddar, tomate, alface!! Uhmm acompanhado com um cesto de fritas.",
             "$BASE_URL/foodimages/basic_burguer_removebg.png",
-            "$BASE_URL/foodimages/hand-in-burger-gloves-holding-beef-burger-in-black-background.jpg",
             "$BASE_URL/foodimages/big-cheeseburger-and-french-fries.jpg",
+            "$BASE_URL/foodimages/hand-in-burger-gloves-holding-beef-burger-in-black-background.jpg",
             "1"
         ),
         FoodModel(
             2,
             "Bacon Burguer",
-            "Burguer",
+            "Hambúgueres",
             "33",
             "Um delicioso lanche com um hambúrguer bovino de 180g, duas fatias de quejo cheddar, tomate, alface, picles, cebola, maionese e fatias crocantes de bacon!! Uhmm acompanhado com um cesto de fritas.",
             "$BASE_URL/foodimages/bacon burguer.jpg",
-            "$BASE_URL/foodimages/bacon burguer 1.jpg",
             "$BASE_URL/foodimages/bacon burguer 2.jpg",
+            "$BASE_URL/foodimages/bacon burguer 1.jpg",
             "1"
         ),
         FoodModel(
             3,
             "Super Bacon Burguer",
-            "Burguer",
+            "Hambúgueres",
             "45",
             "Um delicioso lanche com dois hambúrgueres bovinos de 180g, três fatias de quejo cheddar, tomate, alface, picles, cebola, maionese e fatias crocantes de bacon!! Uhmm acompanhado com um cesto de fritas.",
             "$BASE_URL/foodimages/super_bacon_burguer-removebg.png",
-            "$BASE_URL/foodimages/super bacon burguer.jpg",
             "$BASE_URL/foodimages/super bacon burguer 2.jpg",
+            "$BASE_URL/foodimages/super bacon burguer.jpg",
             "1"
         ),
         FoodModel(
             4,
             "Chicken Burguer",
-            "Burguer",
+            "Hambúgueres",
             "32",
             "Um delicioso lanche com um frango empanado de 180g, três fatias de quejo cheddar, tomate, alface, picles, cebola, muita maionese!! Uhmm acompanhado com um cesto de fritas.",
             "$BASE_URL/foodimages/chicken_burguer-removebg-preview.png",
-            "$BASE_URL/foodimages/chicken burguer.jpg",
             "$BASE_URL/foodimages/chicken burguer 2.jpg",
+            "$BASE_URL/foodimages/chicken burguer.jpg",
             "1"
         ),
         FoodModel(
             5,
             "Juicy Noodles",
-            "Pasta",
+            "Massas",
             "33",
             "Um delicioso prato de macarrão com muito molho de tomate e cubos de filé mignon.",
             "$BASE_URL/foodimages/pasta_removebg-preview.png",
@@ -65,7 +65,7 @@ class InMemoryToRepository: ItemsRepository {
         FoodModel(
             6,
             "Conchiglione",
-            "Pasta",
+            "Massas",
             "27",
             "Um delicioso prato de conchiglione com carne.",
             "$BASE_URL/foodimages/conchiglioni-removebg-preview.png",
@@ -76,7 +76,7 @@ class InMemoryToRepository: ItemsRepository {
         FoodModel(
             7,
             "Pancakes",
-            "Pasta",
+            "Massas",
             "34",
             "Deliciosas panquecas recheadas com carne e frango.",
             "$BASE_URL/foodimages/img_panqueca-removebg-preview.png",
@@ -87,10 +87,10 @@ class InMemoryToRepository: ItemsRepository {
         FoodModel(
             8,
             "Suco Natural de Laranja",
-            "Drink",
+            "Drinks",
             "8",
             "Um copo com 300ml suco de laranja 100% natural.",
-            "$BASE_URL/foodimages/orange-juice-realistic-design-by-Vexels.svg",
+            "$BASE_URL/foodimages/suco_de_laranja_1-removebg-preview.png",
             "$BASE_URL/foodimages/suco de laranja 1.jpg",
             "$BASE_URL/foodimages/suco de laranja 2.jpg",
             "1"
@@ -98,29 +98,29 @@ class InMemoryToRepository: ItemsRepository {
         FoodModel(
             9,
             "Coca Cola",
-            "Drink",
+            "Drinks",
             "6",
             "Coca Cola em lata de 350ml.",
             "$BASE_URL/foodimages/coca_cola_1-removebg-preview.png",
             "$BASE_URL/foodimages/coca cola 1.jpg",
-            "",
+            "$BASE_URL/foodimages/coca cola 1.jpg",
             "1"
         ),
         FoodModel(
             10,
             "Guaraná Antarctica",
-            "Drink",
+            "Drinks",
             "6",
             "Guaraná Antarctica em lata de 350ml.",
             "$BASE_URL/foodimages/Guarana_Antarctica_Lata_1-removebg-preview.png",
             "$BASE_URL/foodimages/Guarana_Antarctica_Lata 1.jpg",
-            "",
+            "$BASE_URL/foodimages/Guarana_Antarctica_Lata 1.jpg",
             "1"
         ),
         FoodModel(
             11,
             "Cerveja",
-            "Drink",
+            "Drinks",
             "14",
             "Caneca de cerveja com 420ml.",
             "$BASE_URL/foodimages/cerveja-removebg-preview.png",
@@ -131,7 +131,7 @@ class InMemoryToRepository: ItemsRepository {
         FoodModel(
             12,
             "Churros",
-            "Dessert",
+            "Doces",
             "13",
             "Um delicioso churros com calda de chocolate e caramelo.",
             "$BASE_URL/foodimages/churros-removebg.png",
@@ -142,7 +142,7 @@ class InMemoryToRepository: ItemsRepository {
         FoodModel(
             13,
             "Banana Split",
-            "Dessert",
+            "Doces",
             "23",
             "Uma deliciosa tigela de banana split com uma perfeita calda de chocolate  em cima de gigantes bolas de sorvete sabor creme e chocolate!",
             "$BASE_URL/foodimages/banana split removed background.jpg",
@@ -153,12 +153,12 @@ class InMemoryToRepository: ItemsRepository {
         FoodModel(
             14,
             "Cup Cake",
-            "Dessert",
+            "Doces",
             "16",
             "Um delicioso cup cake de chocolate rechedo com muita calda de chocolate meio amargo!",
             "$BASE_URL/foodimages/cup cake removed background.jpg",
-            "$BASE_URL/foodimages/cup cake 1.jpg",
             "$BASE_URL/foodimages/cup cake 2.jpg",
+            "$BASE_URL/foodimages/cup cake 1.jpg",
             "1"
         )
     )
