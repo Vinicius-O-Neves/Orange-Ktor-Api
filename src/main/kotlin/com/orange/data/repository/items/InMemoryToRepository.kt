@@ -4,7 +4,7 @@ import com.orange.data.model.FoodModel
 
 class InMemoryToRepository: ItemsRepository {
 
-    private val BASE_URL = "http://192.168.15.14:8140"
+    private val BASE_URL = "INSERT YOUR API"
 
     private val items = listOf<FoodModel>(
         FoodModel(

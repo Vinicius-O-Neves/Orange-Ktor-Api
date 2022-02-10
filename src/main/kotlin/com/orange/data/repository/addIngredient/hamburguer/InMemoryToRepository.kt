@@ -4,7 +4,7 @@ import com.orange.data.model.AddInHamburguerModel
 
 class InMemoryToRepository: AddInHamburguerRepository {
 
-    private val BASE_URL = "http://192.168.15.14:8140"
+    private val BASE_URL = "INSERT YOUR API"
 
     val itemsToAdd = listOf<AddInHamburguerModel>(
         AddInHamburguerModel(
