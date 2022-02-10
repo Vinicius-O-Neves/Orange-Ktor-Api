@@ -32,8 +32,8 @@ Tabela de conteúdos
  
  <h2 id="configure">&nbsp;&nbsp;Como configurar?</h2>
  <p>&nbsp;&nbsp;&nbsp;Novamente no terminal (windows) digite o comando <b>ipconfig</b>. Procure em <b>Adaptador de Rede sem Fio Wi-Fi:</b> o <b>Endereço IPv4</b> e copie os números apresentados do seu IP local. Exemplo: 112.146.00.24 </p>
- <p>&nbsp;&nbsp;&nbsp;Agora dentro do IntelliJ ou outra IDE navegue até a pasta <b>resources</b> que se localiza em <b>src/main/kotlin/resources</b></p>
- <p>&nbsp;&nbsp;&nbsp;Abra o arquivo <b>application.conf</b> e altere a variável <b>host</b> colocando o <b>Endereço IPv4</b> encontrado anteriormente</p>
+ <p>&nbsp;&nbsp;&nbsp;Agora dentro do IntelliJ ou outra IDE navegue até a pasta <b>repository</b> que se localiza em <b>src/main/kotlin/com.orange</b></p>
+ <p>&nbsp;&nbsp;&nbsp;Abra cada classe de repository e altere a variável <b>BASE_URL</b> colocando o <b>Endereço IPv4</b> encontrado anteriormente</p>
  
  <h2 id="turn-local-host">&nbsp;&nbsp;Iniciar API no localhost</h2>
  <div style="display: inline-block">
